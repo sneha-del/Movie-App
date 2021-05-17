@@ -65,79 +65,7 @@ function App() {
   }
 
 
-//toofani
-// return(
-//   <>
-//   <Router>
- {/* <Header title="Movies DB" searchBar={false}/> */}
- {/* <Switch>
- <Route exact path="/" render={()=>
- {
-//    return(
 
-  return (
-    <div className="App">
-      <header>
-        <h1>Mern Movies Datebase</h1>
-        
-      </header>
-      <main>
-        <Search handleInput = {handleInput} search={search}/>
-
-        <Results results = {state.results} openPopup = {openPopup} />
-
-        {(typeof state.selected.Title != "undefined") ? <Popup selected={state.selected} 
-        closePopup={closePopup} /> : false}
-      </main>
-    </div>
-  )
-// }
-//  }} >
-  </Route>
-           <Route exact path="/about">
-             <About />
-           </Route>
-          
-           
-          
-            
-  
-         </Switch>
- 
- 
- 
- 
- {/* <Footer/> */}
-//  </Router>
-//   </>
-  
-//    );
-//  } */}
-//bakchodi ends
-
-//chalega
-//   return (
-//     <div className="App">
-//       {/* <header>
-//         <h1>Movies Datebase</h1>
-        
-
-//       </header> */}
-//      <Header title="MyMovie" searchBar={false}/>
- 
-//       <main>
-//         <Search handleInput = {handleInput} search={search}/>
-//         {/* <Footer/> */}
-//         <Results results = {state.results} openPopup = {openPopup} />
-// {/* <Footer/> */}
-//         {(typeof state.selected.Title != "undefined") ? <Popup selected={state.selected} 
-//         closePopup={closePopup} /> : false}
-//       </main>
-//       <Footer/>
-//     </div>
-//   );
-// }
-//chalega
 
 return (
   <>
